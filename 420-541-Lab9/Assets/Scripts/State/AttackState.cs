@@ -29,8 +29,6 @@ public class AttackState : IState
             return;
         }
 
-        // Restart the level since the player is "hit"
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void Exit()

@@ -12,7 +12,6 @@ public class PatrolState : IState
 
     public void Enter()
     {
-        //aiController.Animator.SetBool("isMoving", true);
         MoveToNextWaypoint();
     }
 
